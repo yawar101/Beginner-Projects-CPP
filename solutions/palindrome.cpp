@@ -12,7 +12,9 @@ while (num!=0)
 { 
   digit = num %10; // returns the last digit of number
   rev = (rev*10) + digit; 
-  num = num/10;} // removes the last digit from number
+  num = num/10; // removes the last digit from number
+  }
+  
 cout<<"The reverse of the number is:"<<rev;
 
 if(rev==copy) // compares both numbers
